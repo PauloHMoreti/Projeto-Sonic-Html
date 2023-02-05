@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Importando bibliotecas de fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link ref="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap"
+    />
+    <!--Importando os arquivos css para a estilização-->
+    <link rel="stylesheet" href="./src/css/index/styles.css" />
+    <link rel="stylesheet" href="./src/css/global/reset.css" />
+    <link rel="stylesheet" href="./src/css/index/responsive.css" />
+    <!--Titulo da Pagina-->
+    <title>Sonic The Hedgehog</title>
+    <!--Icone da Guia-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./src/images/sonic-the-hedgehog-icons-sonic-modern-sonic-the-hedgehog-logo.png"
+    />
+  </head>
+  <body>
+    <!--Video de fundo-->
+    <div class="video-fundo">
+      <video class="video" autoplay loop muted>
+        <source
+          src="./src/video/Sonic 2 - O flime - Trailer.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <!--Cabeçalho da Pagina || Barra de navegação-->
+    <header class="cabecalho">
+      <a>
+        <!--Logo-->
+        <img
+          class="logo"
+          src="./src/images/Sonic_logo.png"
+          alt="Logo do Sonic The Hedgehog"
+      /></a>
+      <!--Links de navegação-->
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Pagina inicial</a></li>
+          <li><a href="./src/pages/details.html">Detalhes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Conteudo principal da pagina-->
+    <main class="container">
+      <div class="informacoes">
+        <!--Logo-->
+        <img
+          class="titulo"
+          src="./src/images/Sonic_logo.png"
+          alt="Logo do Sonic The Hedgehog"
+        />
+        <!--Descrição-->
+        <p class="descricao">
+          Sonic the Hedgehog é uma série de jogos e uma franquia multimídia
+          japonesa criada pelo Sonic Team e produzida pela Sega. A franquia
+          segue Sonic, cuja vida pacífica é sempre interrompida pelo antagonista
+          principal da série, Dr. Eggman.
+        </p>
+        <!--Botão para abrir o modal-->
+        <button class="botao">Veja o trailer do ultimo filme lançado</button>
+      </div>
+      <!--Imagem com os personagens-->
+      <img
+        class="personagens"
+        src="./src/images/personagens_-_Sonic-removebg-preview.png"
+        alt="Personagens do Sonic"
+      />
+      <!--Modal-->
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="fechar-modal">X</span>
+          <!--Trailer do ultimo filme-->
+          <iframe
+            id="trailer"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/A2SjVRziC7M"
+            title="Sonic 2 - O Filme | Trailer Oficial Dublado | Paramount Pictures Brasil"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <script src="./src/scripts/index.js"></script>
+    </main>
+  </body>
+</html>
