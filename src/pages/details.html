@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Importando bibliotecas de fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link ref="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap"
+    />
+    <!--Importando os arquivos css para a estilização-->
+    <link rel="stylesheet" href="../css/details/styles.css" />
+    <link rel="stylesheet" href="../css/global/reset.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/details/modals.css" />
+    <link rel="stylesheet" href="../css/details/texts.css" />
+    <!--Titulo da Pagina-->
+    <title>Sonic The Hedgehog</title>
+    <!--Icone da Guia-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../images/sonic-the-hedgehog-icons-sonic-modern-sonic-the-hedgehog-logo.png"
+    />
+  </head>
+  <body>
+    <!--Video de fundo-->
+    <div class="video-fundo">
+      <video class="video" autoplay loop muted>
+        <source
+          src="../video/Sonic 2 - O flime - Trailer.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <!--Cabeçalho da Pagina || Barra de navegação-->
+    <header class="cabecalho">
+      <a>
+        <!--Logo-->
+        <img
+          class="logo"
+          src="../images/Sonic_logo.png"
+          alt="Logo do Sonic The Hedgehog"
+      /></a>
+      <!--Links de navegação-->
+      <nav>
+        <ul class="menu">
+          <li><a href="../../index.html">Pagina inicial</a></li>
+          <li><a href="#">Detalhes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Conteudo principal da pagina-->
+    <main class="container">
+      <div class="informacoes">
+        <h2 class="titulo">Descrição sobre a série:</h2>
+        <!--Descrição-->
+        <p class="descricao">
+          Sonic the Hedgehog é uma série de jogos e uma franquia multimídia
+          japonesa criada pelo Sonic Team e produzida pela Sega. A franquia
+          segue Sonic, cuja vida pacífica é sempre interrompida pelo antagonista
+          principal da série, Dr. Eggman (nome real: Dr. Ivo Robotnik). Sonic -
+          normalmente junto de um de seus aliados, como Tails e Knuckles - se
+          aventuram para parar o vilão insano e seus planos para dominação
+          mundial. O primeiro jogo da série Sonic, lançado em 1991, foi
+          concebido pela divisão da Sega, Sonic Team após um pedido para um novo
+          mascote. O título foi um sucesso, e foi renovado para várias sequelas,
+          que levaram a Sega a liderança no rumo dos consoles de video-game da
+          era 16-bit do começo até a metade dos anos 90. Atualmente, é uma das
+          franquias mais famosas e mais lucrativas da indústria dos videogames.
+          Enquanto os primeiros jogos da série eram jogos de plataforma em
+          side-scrolling, posteriormente os jogos da série foram expandidos em
+          vários outros gêneros e sub-séries, como Mario & Sonic at the Olympic
+          Games e a série Sonic Boom. Até 2016, a série vendeu mais de 80
+          milhões de cópias físicas de jogos, e mais de 350 milhões de unidades
+          quando combinados com relançamentos e downloads para celulares. Fora
+          dos video-games, a franquia também já foi divulgada em outras mídias,
+          incluindo desenhos animados, anime e uma longa série de histórias em
+          quadrinhos, que foi reconhecida como a mais longa história em
+          quadrinhos baseada em um video-game já publicada pelo Guinness World
+          Records.
+        </p>
+        <!--Botoes para modais-->
+        <button class="firstButton">História da série</button>
+        <button class="secondButton">Personagens Principais</button>
+        <button class="thirdButton">Esmeraldas do Caos</button>
+        <div class="historia">
+          <div class="conteudo">
+            <h2 class="tituloModal">Resumo da história da série:</h2>
+            <p class="texto">
+              Quase todos os jogos da série apresentam um ouriço antropomórfico
+              azul chamado Sonic como o personagem do jogador central e
+              protagonista. Os jogos detalham a tentativa de Sonic e seus
+              aliados de salvar o mundo de várias ameaças, principalmente o
+              gênio do mal Dr. Ivo "Eggman" Robotnik, o antagonista principal da
+              série. O objetivo principal de Robotnik é governar o mundo; para
+              conseguir isso, ele geralmente tenta destruir Sonic e adquirir as
+              poderosas Esmeraldas do Caos.
+            </p>
+            <button class="closeModalHistoria" id="closeModal">Fechar</button>
+          </div>
+        </div>
+      </div>
+      <div class="personagens">
+        <div class="conteudo">
+          <h2 class="tituloModalPersonagens">Sonic the Hedgehog:</h2>
+          <p class="textoPersonagens">
+            Sonic the Hedgehog é o protagonista da série. Criado como um
+            substituto para Alex Kidd, considerado o mascote da Sega, e também
+            como a resposta da empresa para Mario, sua primeira aparição foi em
+            Sonic the Hedgehog de Mega Drive. Ele tem 15 anos, e sua grande
+            habilidade é a velocidade de sua corrida, o que faz com que ele seja
+            conhecido como o ouriço mais rápido do mundo. O nome do personagem
+            vem da palavra inglesa "Supersonic" ("Supersônico"), pois Yuji Naka,
+            o criador de Sonic, queria um nome que sugerisse velocidade. Sempre
+            tenta impedir o Dr. Robotnik (também conhecido como Dr. Eggman) de
+            pegar as Esmeraldas do Caos e, como sempre, consegue. Há um gene no
+            DNA dos mamíferos que foi designado Sonic hedgehog, em sua homenagem
+          </p>
+          <h2 class="tituloModalPersonagens">Dr. Ivo "Eggman" Robotnik:</h2>
+          <p class="textoPersonagens">
+            Doutor Ivo Robotnik, mais conhecido como Doutor Eggman é um
+            cientista maluco com um QI de 300. Ele sempre planeja dominar o
+            mundo transformando em robôs tudo que vive e capturando todas as
+            Esmeraldas do Caos, podendo assim criar a sua cidade utópica,
+            Eggmanland. Geralmente Ivo Robotnik é o chefe do final das fases.
+          </p>
+          <h2 class="tituloModalPersonagens">Miles "Tails" Prower:</h2>
+          <p class="textoPersonagens">
+            Miles Prower, mais conhecido como Tails, é uma raposa de 8 anos que
+            é o melhor amigo de Sonic. Yasushi Yamaguchi criou Tails a fim de
+            vencer um concurso para eleger um companheiro para Sonic. O seu
+            personagem, uma raposa com múltiplas caudas em alusão ao mitológico
+            kitsune, venceu, mas a Sonic Team decidiu modificar o nome do
+            personagem de "Miles Prower" para Tails. Yamaguchi decidiu então
+            chamá-lo de Miles, sendo Tails um apelido e Prower o seu sobrenome.
+          </p>
+          <h2 class="tituloModalPersonagens">Amy Rose:</h2>
+          <p class="textoPersonagens">
+            Amy Rose é uma ouriço fêmea rosa de 12 anos com uma enorme paixão
+            por Sonic. Sua primeira aparição na série foi em Sonic CD, onde foi
+            raptada por Metal Sonic. Nesse jogo, ela tinha o apelido de "Rosy
+            the Rascal". Depois desse jogo, ela passou a ser conhecida como Amy.
+            Uma adolescente alegre, otimista, proativa, bondosa, cuidadosa e
+            altruísta, Amy é uma jovem ouriço bastante determinada que não deixa
+            nada ficar em seu caminho. Ela e um personagem doce e amorosa, mas
+            também as vezes pode ser temperamental, orgulhosa,agressiva, mandona
+            e arrogante. E bastante extrovertida, simpática e inocente fazendo
+            amizade com qualquer personagem e inclusive fazendo amizade com
+            vilões para converte-los ao lado do bem.
+          </p>
+          <h2 class="tituloModalPersonagens">Knuckles the Echidna:</h2>
+          <p class="textoPersonagens">
+            Knuckles the Echidna é o amigo e rival de Sonic. Ele tem 16 anos, e
+            aparece pela primeira vez em Sonic the Hedgehog 3, e vive em Angel
+            Island, uma ilha que paira no céu devido o poder da grande Esmeralda
+            Mestre. Como o último membro sobrevivente do povo Equidna que
+            habitou a ilha, seu dever é proteger a Esmeralda Mestre. Criado para
+            ser um rival de Sonic, o design de Knuckles foi o resultado de
+            diversas ideias baseados em diferentes animais. Perito em artes
+            marciais e com um soco poderoso, ele é considerado um dos
+            personagens mais fortes da série Sonic. Além da sua super força
+            ilimitadas e super velocidades limitadas, o personagem também tem as
+            habilidade de planar no ar, escavar e escalada. Ele é muito inocente
+            e ingênuo, pois acredita na bondade de todos e ao mesmo tempo
+            desconfia da maldade de todos. E muito cabeça dura e está sempre
+            achando que tem razão, também possui um ego inflado. Normalmente ele
+            é sério, durão e introvertido, mas quando está ao redor de seus
+            amigos, consegue libertar seu bom humor e ser bastante amigável.
+            Quando está em lutas, o equidna também fica com uma tremenda raiva.
+          </p>
+          <button class="closeModalPersonagens" id="closeModal">Fechar</button>
+        </div>
+      </div>
+      <div class="esmeraldas">
+        <div class="conteudo">
+          <h2 class="tituloModal">Esmeraldas do Caos (Chaos Emeralds):</h2>
+          <p class="texto">
+            As Esmeraldas do Caos, na história do jogo, são antigos artefatos
+            mágicos com um poder surreal. O poder quando bem manipulado pode lhe
+            dar habilidades inimagináveis, além de servir de fonte de energia
+            para qualquer ser ou máquina. Elas existem desde o primeiro jogo do
+            Sonic. Diferente dos anéis, elas contêm grande valor de Energia
+            Chaos. São no total 7 Esmeraldas, que são neutralizadas pela
+            Esmeralda Mestre, uma Esmeralda verde e grande e que tem um poder
+            infinito. Elas podem transformar-se nas Super Esmeraldas e dar mais
+            poder a quem as possui. Nos primeiros jogos, as Esmeraldas eram
+            colecionadas em fases especiais. Nos jogos atualmente, elas são
+            conseguidas ao passar da história. Elas contêm um valor positivo e
+            negativo. Quando o Sonic usa o poder positivo, ele transforma-se no
+            Super Sonic. Quando usa o poder negativo, ele transforma-se no Dark
+            Sonic.
+          </p>
+          <button class="closeModalEsmeraldas" id="closeModal">Fechar</button>
+        </div>
+      </div>
+      <script src="../scripts/details.js"></script>
+    </main>
+  </body>
+</html>

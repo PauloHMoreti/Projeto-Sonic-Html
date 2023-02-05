@@ -1,0 +1,34 @@
+.container .titulo {
+  color: whitesmoke;
+}
+
+.container .descricao {
+  color: whitesmoke;
+  width: 85%;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.texto {
+  width: 96%;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.tituloModal {
+  width: 96%;
+  text-align: justify;
+  font-size: 24px;
+}
+
+.tituloModalPersonagens {
+  width: 96%;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.textoPersonagens {
+  width: 96%;
+  text-align: justify;
+  font-size: 16.3px;
+}

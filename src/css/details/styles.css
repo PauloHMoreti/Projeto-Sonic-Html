@@ -1,0 +1,140 @@
+body {
+  font-family: "montserrat";
+}
+
+.video-fundo {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.video-fundo .video {
+  height: 100vh;
+}
+
+.video-fundo::after {
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cabecalho .logo {
+  width: 180px;
+}
+
+.cabecalho .menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.cabecalho nav li a {
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+  height: calc(100vh - 132px);
+  padding: 0 30px 30px;
+}
+
+.container .firstButton {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: 0.5s all ease-in-out;
+}
+
+.container .firstButton:hover {
+  transform: scale(1.1);
+}
+
+.container .secondButton {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: 0.5s all ease-in-out;
+  margin-left: 0.9rem;
+}
+
+.container .secondButton:hover {
+  transform: scale(1.1);
+}
+
+.container .thirdButton {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: 0.5s all ease-in-out;
+  margin-left: 0.9rem;
+}
+
+.container .thirdButton:hover {
+  transform: scale(1.1);
+}
+
+#closeModal {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: 0.5s all ease-in-out;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}

@@ -1,0 +1,92 @@
+.historia {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 52, 50, 0.749);
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.historia .conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 41%;
+  border-radius: 5px;
+  gap: 15px;
+  width: 50%;
+  background-color: white;
+}
+
+.historia.aberto {
+  opacity: 1;
+  visibility: visible;
+}
+
+.personagens {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 52, 50, 0.749);
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personagens .conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85%;
+  border-radius: 5px;
+  gap: 15px;
+  width: 90%;
+  background-color: white;
+}
+
+.personagens.aberto {
+  opacity: 1;
+  visibility: visible;
+}
+
+.esmeraldas {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 52, 50, 0.749);
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.esmeraldas .conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  border-radius: 5px;
+  gap: 15px;
+  width: 60%;
+  background-color: white;
+}
+
+.esmeraldas.aberto {
+  opacity: 1;
+  visibility: visible;
+}
